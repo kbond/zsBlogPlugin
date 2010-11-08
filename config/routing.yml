@@ -1,0 +1,40 @@
+zs_blog_admin:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                zsBlogArticle
+    module:               zsBlogAdmin
+    prefix_path:          /admin/blog
+    column:               id
+    with_wildcard_routes: true
+
+zs_blog:
+  url: /blog.:sf_format
+  param:   { module: zsBlog, action: index, sf_format: html }
+  requirements:
+    sf_format: (?:html|atom)
+
+zs_blog_article:
+  url:      /blog/article/:slug
+  class:    sfDoctrineRoute
+  options:  { model: zsBlogArticle, type: object }
+  param:    { module: zsBlog, action: article }
+
+zs_blog_category:
+  url:      /blog/category/:slug.:sf_format
+  class:    sfDoctrineRoute
+  options:  { model: zsBlogCategory, type: object }
+  param:    { module: zsBlog, action: category, sf_format: html }
+  requirements:
+    sf_format: (?:html|atom)
+
+zs_blog_tag_search:
+  url:      /blog/tag/search
+  param:    { module: zsBlog, action: tag }
+
+zs_blog_tag:
+  url:      /blog/tag/:name.:sf_format
+  class:    sfDoctrineRoute
+  options:  { model: zsBlogTag, type: object }
+  param:    { module: zsBlog, action: tag, sf_format: html }
+  requirements:
+    sf_format: (?:html|atom)

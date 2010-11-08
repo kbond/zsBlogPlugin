@@ -1,0 +1,183 @@
+zsBlogCategory:
+  up:
+    name: Product Update
+  mod:
+    name: Mod of the Month
+  con:
+    name: Consultants Corner
+  top:
+    name: Top Sellers
+
+zsBlogTag:
+  mount: { name: mount }
+  rack: { name: rack }
+  bracket: { name: bracket }
+  economy: { name: economy }
+
+ 
+zsBlogArticle:
+  a1:
+    title:  New Rack Mount Monitor Bracket (RMMB Series)
+    Category: up
+    content: |
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum ante quis ante pretium vel gravida lectus ornare. Aenean ut arcu nisl. Duis sed neque dui, sed imperdiet metus. Fusce dui elit, eleifend ullamcorper faucibus a, porta quis ante. Morbi pellentesque est a ante mollis interdum. Vestibulum iaculis fermentum enim, sed congue ipsum laoreet et. Integer sagittis viverra risus, vel cursus metus consectetur nec. Curabitur facilisis felis sed nunc commodo accumsan.</p>
+      <ul>
+        <li>blah</li>
+        <li>blah</li>
+        <li>blah</li>
+      </ul>
+      <p>Praesent vel cursus diam. Nullam urna dui, rutrum ut aliquam vel, lacinia eget nibh. In sed ante id mauris bibendum suscipit ut sit amet turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pharetra pretium nisl eget viverra. Sed velit est, sollicitudin vitae sodales et, lobortis at sapien. Fusce adipiscing dolor nec nulla ultricies quis placerat nisl blandit. Fusce vitae arcu mauris, sed tempus libero.</p>
+    
+    published_at: '2010-07-01'
+    Tags: [mount, rack, bracket]
+  a2:
+    title:  New Economy Fixed Wall Bracket (FWB Series)
+    Category: up
+    content: |
+      <p>Praesent vel cursus diam. Nullam urna dui, rutrum ut aliquam vel, lacinia eget nibh. In sed ante id mauris bibendum suscipit ut sit amet turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pharetra pretium nisl eget viverra.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum ante quis ante pretium vel gravida lectus ornare. Aenean ut arcu nisl. Duis sed neque dui, sed imperdiet metus. Fusce dui elit, eleifend ullamcorper faucibus a, porta quis ante. Morbi pellentesque est a ante mollis interdum. Vestibulum iaculis fermentum enim, sed congue ipsum laoreet et. Integer sagittis viverra risus, vel cursus metus consectetur nec. Curabitur facilisis felis sed nunc commodo accumsan.</p>
+      <p>Praesent vel cursus diam. Nullam urna dui, rutrum ut aliquam vel, lacinia eget nibh. In sed ante id mauris bibendum suscipit ut sit amet turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pharetra pretium nisl eget viverra. Sed velit est, sollicitudin vitae sodales et, lobortis at sapien. Fusce adipiscing dolor nec nulla ultricies quis placerat nisl blandit. Fusce vitae arcu mauris, sed tempus libero.</p>
+    
+    published_at: '2010-06-01'
+    Tags: [bracket, economy]
+  a3:
+    title:  Updated Door for RCSC Series
+    Category: up
+    content: |
+      <p>Praesent vel cursus diam. Nullam urna dui, rutrum ut aliquam vel, lacinia eget nibh. In sed ante id mauris bibendum suscipit ut sit amet turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pharetra pretium nisl eget viverra. Sed velit est, sollicitudin vitae sodales et, lobortis at sapien. Fusce adipiscing dolor nec nulla ultricies quis placerat nisl blandit. Fusce vitae arcu mauris, sed tempus libero.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum ante quis ante pretium vel gravida lectus ornare. Aenean ut arcu nisl. Duis sed neque dui, sed imperdiet metus. Fusce dui elit, eleifend ullamcorper faucibus a, porta quis ante. Morbi pellentesque est a ante mollis interdum. Vestibulum iaculis fermentum enim, sed congue ipsum laoreet et. Integer sagittis viverra risus, vel cursus metus consectetur nec. Curabitur facilisis felis sed nunc commodo accumsan.</p>
+      <p>Praesent vel cursus diam. Nullam urna dui, rutrum ut aliquam vel, lacinia eget nibh. In sed ante id mauris bibendum suscipit ut sit amet turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pharetra pretium nisl eget viverra.</p>
+    
+    published_at: '2010-05-01'
+  a4:
+    title:  New Rail Mount Cover
+    Category: up
+    content: |
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum ante quis ante pretium vel gravida lectus ornare. Aenean ut arcu nisl. Duis sed neque dui, sed imperdiet metus. Fusce dui elit, eleifend ullamcorper faucibus a, porta quis ante. Morbi pellentesque est a ante mollis interdum. Vestibulum iaculis fermentum enim, sed congue ipsum laoreet et. Integer sagittis viverra risus, vel cursus metus consectetur nec. Curabitur facilisis felis sed nunc commodo accumsan.</p>
+      <p>Praesent vel cursus diam. Nullam urna dui, rutrum ut aliquam vel, lacinia eget nibh. In sed ante id mauris bibendum suscipit ut sit amet turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pharetra pretium nisl eget viverra.</p>
+    
+    published_at: '2010-04-01'
+  a5:
+    title:  Modified Stainless Steel Enclosure with rail mounting
+    Category: mod
+    content: |
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum ante quis ante pretium vel gravida lectus ornare. Aenean ut arcu nisl. Duis sed neque dui, sed imperdiet metus. Fusce dui elit, eleifend ullamcorper faucibus a, porta quis ante. Morbi pellentesque est a ante mollis interdum. Vestibulum iaculis fermentum enim, sed congue ipsum laoreet et. Integer sagittis viverra risus, vel cursus metus consectetur nec. Curabitur facilisis felis sed nunc commodo accumsan.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum ante quis ante pretium vel gravida lectus ornare. Aenean ut arcu nisl. Duis sed neque dui, sed imperdiet metus. Fusce dui elit, eleifend ullamcorper faucibus a, porta quis ante. Morbi pellentesque est a ante mollis interdum. Vestibulum iaculis fermentum enim, sed congue ipsum laoreet et. Integer sagittis viverra risus, vel cursus metus consectetur nec. Curabitur facilisis felis sed nunc commodo accumsan.</p>
+      <p>Praesent vel cursus diam. Nullam urna dui, rutrum ut aliquam vel, lacinia eget nibh. In sed ante id mauris bibendum suscipit ut sit amet turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pharetra pretium nisl eget viverra.</p>
+    
+    published_at: '2010-07-01'
+  a6:
+    title:  Modified Broadcast Cabinet
+    Category: mod
+    content: |
+      <p>Praesent vel cursus diam. Nullam urna dui, rutrum ut aliquam vel, lacinia eget nibh. In sed ante id mauris bibendum suscipit ut sit amet turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pharetra pretium nisl eget viverra.</p>
+    
+    published_at: '2010-06-01'
+  a7:
+    title:  Modified Data Centre Cabinet
+    Category: mod
+    content: |
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum ante quis ante pretium vel gravida lectus ornare. Aenean ut arcu nisl. Duis sed neque dui, sed imperdiet metus. Fusce dui elit, eleifend ullamcorper faucibus a, porta quis ante. Morbi pellentesque est a ante mollis interdum. Vestibulum iaculis fermentum enim, sed congue ipsum laoreet et. Integer sagittis viverra risus, vel cursus metus consectetur nec. Curabitur facilisis felis sed nunc commodo accumsan.</p>
+      <p>Praesent vel cursus diam. Nullam urna dui, rutrum ut aliquam vel, lacinia eget nibh. In sed ante id mauris bibendum suscipit ut sit amet turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pharetra pretium nisl eget viverra.</p>
+    
+    published_at: '2010-05-01'
+  a8:
+    title:  Custom Shelf
+    Category: mod
+    content: |
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum ante quis ante pretium vel gravida lectus ornare. Aenean ut arcu nisl. Duis sed neque dui, sed imperdiet metus. Fusce dui elit, eleifend ullamcorper faucibus a, porta quis ante. Morbi pellentesque est a ante mollis interdum. Vestibulum iaculis fermentum enim, sed congue ipsum laoreet et. Integer sagittis viverra risus, vel cursus metus consectetur nec. Curabitur facilisis felis sed nunc commodo accumsan.</p>
+      <p>Praesent vel cursus diam. Nullam urna dui, rutrum ut aliquam vel, lacinia eget nibh. In sed ante id mauris bibendum suscipit ut sit amet turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pharetra pretium nisl eget viverra.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum ante quis ante pretium vel gravida lectus ornare. Aenean ut arcu nisl. Duis sed neque dui, sed imperdiet metus. Fusce dui elit, eleifend ullamcorper faucibus a, porta quis ante. Morbi pellentesque est a ante mollis interdum. Vestibulum iaculis fermentum enim, sed congue ipsum laoreet et. Integer sagittis viverra risus, vel cursus metus consectetur nec. Curabitur facilisis felis sed nunc commodo accumsan.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum ante quis ante pretium vel gravida lectus ornare. Aenean ut arcu nisl. Duis sed neque dui, sed imperdiet metus. Fusce dui elit, eleifend ullamcorper faucibus a, porta quis ante. Morbi pellentesque est a ante mollis interdum. Vestibulum iaculis fermentum enim, sed congue ipsum laoreet et. Integer sagittis viverra risus, vel cursus metus consectetur nec. Curabitur facilisis felis sed nunc commodo accumsan.</p>
+    
+    published_at: '2010-04-01'
+  a9:
+    title:  Engineered Weightload Tests
+    Category: con
+    content: |
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum ante quis ante pretium vel gravida lectus ornare. Aenean ut arcu nisl. Duis sed neque dui, sed imperdiet metus. Fusce dui elit, eleifend ullamcorper faucibus a, porta quis ante. Morbi pellentesque est a ante mollis interdum. Vestibulum iaculis fermentum enim, sed congue ipsum laoreet et. Integer sagittis viverra risus, vel cursus metus consectetur nec. Curabitur facilisis felis sed nunc commodo accumsan.</p>
+      <p>Praesent vel cursus diam. Nullam urna dui, rutrum ut aliquam vel, lacinia eget nibh. In sed ante id mauris bibendum suscipit ut sit amet turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pharetra pretium nisl eget viverra.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum ante quis ante pretium vel gravida lectus ornare. Aenean ut arcu nisl. Duis sed neque dui, sed imperdiet metus. Fusce dui elit, eleifend ullamcorper faucibus a, porta quis ante. Morbi pellentesque est a ante mollis interdum. Vestibulum iaculis fermentum enim, sed congue ipsum laoreet et. Integer sagittis viverra risus, vel cursus metus consectetur nec. Curabitur facilisis felis sed nunc commodo accumsan.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum ante quis ante pretium vel gravida lectus ornare. Aenean ut arcu nisl. Duis sed neque dui, sed imperdiet metus. Fusce dui elit, eleifend ullamcorper faucibus a, porta quis ante. Morbi pellentesque est a ante mollis interdum. Vestibulum iaculis fermentum enim, sed congue ipsum laoreet et. Integer sagittis viverra risus, vel cursus metus consectetur nec. Curabitur facilisis felis sed nunc commodo accumsan.</p>
+    
+    published_at: '2010-07-01'
+  a10:
+    title:  Enclosure Testing Upgrades
+    Category: con
+    content: |
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum ante quis ante pretium vel gravida lectus ornare. Aenean ut arcu nisl. Duis sed neque dui, sed imperdiet metus. Fusce dui elit, eleifend ullamcorper faucibus a, porta quis ante. Morbi pellentesque est a ante mollis interdum. Vestibulum iaculis fermentum enim, sed congue ipsum laoreet et. Integer sagittis viverra risus, vel cursus metus consectetur nec. Curabitur facilisis felis sed nunc commodo accumsan.</p>
+      <p>Praesent vel cursus diam. Nullam urna dui, rutrum ut aliquam vel, lacinia eget nibh. In sed ante id mauris bibendum suscipit ut sit amet turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pharetra pretium nisl eget viverra.</p>      
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum ante quis ante pretium vel gravida lectus ornare. Aenean ut arcu nisl. Duis sed neque dui, sed imperdiet metus. Fusce dui elit, eleifend ullamcorper faucibus a, porta quis ante. Morbi pellentesque est a ante mollis interdum. Vestibulum iaculis fermentum enim, sed congue ipsum laoreet et. Integer sagittis viverra risus, vel cursus metus consectetur nec. Curabitur facilisis felis sed nunc commodo accumsan.</p>
+    
+    published_at: '2010-06-01'
+  a11:
+    title:  Paint Improvements
+    Category: con
+    content: |      
+      <p>Praesent vel cursus diam. Nullam urna dui, rutrum ut aliquam vel, lacinia eget nibh. In sed ante id mauris bibendum suscipit ut sit amet turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pharetra pretium nisl eget viverra.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum ante quis ante pretium vel gravida lectus ornare. Aenean ut arcu nisl. Duis sed neque dui, sed imperdiet metus. Fusce dui elit, eleifend ullamcorper faucibus a, porta quis ante. Morbi pellentesque est a ante mollis interdum. Vestibulum iaculis fermentum enim, sed congue ipsum laoreet et. Integer sagittis viverra risus, vel cursus metus consectetur nec. Curabitur facilisis felis sed nunc commodo accumsan.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum ante quis ante pretium vel gravida lectus ornare. Aenean ut arcu nisl. Duis sed neque dui, sed imperdiet metus. Fusce dui elit, eleifend ullamcorper faucibus a, porta quis ante. Morbi pellentesque est a ante mollis interdum. Vestibulum iaculis fermentum enim, sed congue ipsum laoreet et. Integer sagittis viverra risus, vel cursus metus consectetur nec. Curabitur facilisis felis sed nunc commodo accumsan.</p>
+    
+    published_at: '2010-05-01'
+  a12:
+    title:  Modified vs Custom
+    Category: con
+    content: |
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum ante quis ante pretium vel gravida lectus ornare. Aenean ut arcu nisl. Duis sed neque dui, sed imperdiet metus. Fusce dui elit, eleifend ullamcorper faucibus a, porta quis ante. Morbi pellentesque est a ante mollis interdum. Vestibulum iaculis fermentum enim, sed congue ipsum laoreet et. Integer sagittis viverra risus, vel cursus metus consectetur nec. Curabitur facilisis felis sed nunc commodo accumsan.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum ante quis ante pretium vel gravida lectus ornare. Aenean ut arcu nisl. Duis sed neque dui, sed imperdiet metus. Fusce dui elit, eleifend ullamcorper faucibus a, porta quis ante. Morbi pellentesque est a ante mollis interdum. Vestibulum iaculis fermentum enim, sed congue ipsum laoreet et. Integer sagittis viverra risus, vel cursus metus consectetur nec. Curabitur facilisis felis sed nunc commodo accumsan.</p>
+    
+    published_at: '2010-04-01'
+  a13:
+    title:  Top Sellers
+    Category: top
+    content: |
+      <ol>
+        <li>DC1004242</li>
+        <li>DNRR77HDW</li>
+        <li>DNRR84HDWB</li>
+        <li>RASVL190314BK1</li>
+        <li>PCMDD19003BK1</li>
+      </ol>
+    
+    published_at: '2010-07-01'
+  a14:
+    title:  Top Sellers
+    Category: top
+    content: |
+      <ol>
+        <li>DC1004242</li>
+        <li>DNRR77HDW</li>
+        <li>DNRR84HDWB</li>
+        <li>RASVL190314BK1</li>
+        <li>PCMDD19003BK1</li>
+      </ol>
+    
+    published_at: '2010-06-01'
+  a15:
+    title:  Top Sellers
+    Category: top
+    content: |
+      <ol>
+        <li>DC1004242</li>
+        <li>DNRR77HDW</li>
+        <li>DNRR84HDWB</li>
+        <li>RASVL190314BK1</li>
+        <li>PCMDD19003BK1</li>
+      </ol>
+    
+    published_at: '2010-05-01'
+  a16:
+    title:  Top Sellers
+    Category: top
+    content: |
+      <ol>
+        <li>DC1004242</li>
+        <li>DNRR77HDW</li>
+        <li>DNRR84HDWB</li>
+        <li>RASVL190314BK1</li>
+        <li>PCMDD19003BK1</li>
+      </ol>
+    
+    published_at: '2010-04-01'
+
+

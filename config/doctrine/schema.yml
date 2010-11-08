@@ -1,0 +1,41 @@
+zsBlogArticle:
+  actAs:
+    Timestampable:  ~
+    Sluggable:      { fields: [title] }
+  columns:
+    title:          { type: string(255), notnull: true }
+    category_id:    { type: integer, notnull: true }
+    content:        { type: clob }
+    published_at:   { type: timestamp }
+  relations:
+    Category:
+      class:        zsBlogCategory
+      local:        category_id
+      foreign:      id
+      foreignAlias: Articles
+    Tags:
+      class:        zsBlogTag
+      refClass:     zsBlogArticleTag
+      local:        article_id
+      foreign:      tag_id
+      foreignAlias: Articles
+
+zsBlogCategory:
+  actAs:
+    Sluggable:      { fields: [name] }
+  columns:
+    name:           { type: string(255), notnull: true, unique: true }
+
+zsBlogTag:
+  columns:
+    name:           { type: string(255), notnull: true, unique: true }
+
+zsBlogArticleTag:
+  options:
+    symfony:        { form: false, filter: false }
+  columns:
+    article_id:     { type: integer, primary: true }
+    tag_id:         { type: integer, primary: true }
+  relations:
+    zsBlogArticle:  { onDelete: CASCADE, local: article_id, foreign: id }
+    zsBlogTag:      { onDelete: CASCADE, local: tag_id, foreign: id }

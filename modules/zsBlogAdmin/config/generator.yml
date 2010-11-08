@@ -1,0 +1,50 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           zsBlogArticle
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          zs_blog_admin
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions:
+        _list:    { label: Cancel }
+        _new:     { label: New Article }
+        new_category: { label: New Category }
+      fields:
+        published_at:
+          date_format: yyyy-MMM-dd
+          label:  Published
+        tags_list:
+          label:  Tags
+      list:
+        title:    Blog Articles
+        display:  [=title, Category, tag_list, published_at]
+        sort:     [published_at, desc]
+        table_method: addJoinQuery
+        object_actions:
+          _edit: ~
+          publish: ~
+        batch_actions:
+          publish:  ~
+        actions:
+          _new: ~
+          new_category: ~
+      filter:
+        display:  [title, category_id, published_at]
+      form:    ~
+      edit:
+        title:    Editing Blog Article "%%title%%"
+        actions:
+          _list:    ~
+          _delete:  ~
+          publish: ~
+          _save:    ~
+          _save_and_add: ~
+      new:
+        title:    New Blog Article
