@@ -35,4 +35,11 @@ class PluginzsBlogTagTable extends Doctrine_Table
 
     return $q->execute(array(), Doctrine::HYDRATE_ARRAY);
   }
+
+  public function retrieveForRoute(Doctrine_Query $q)
+  {
+    $q->leftJoin($q->getRootAlias().'.Articles');
+
+    return $q->fetchOne();
+  }
 }

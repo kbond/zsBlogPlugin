@@ -12,15 +12,16 @@
  */
 abstract class PluginzsBlogTag extends BasezsBlogTag
 {
-  public function getArticlesQuery()
+  public function getArticleListQuery()
   {
     $ids = $this->getArticles()->getPrimaryKeys();
 
     /* @var $q Doctrine_Query */
-    $q = Doctrine::getTable('zsBlogArticle')->addJoinQuery();
+    $q = Doctrine::getTable('zsBlogArticle')->getListQuery();
 
     $q->whereIn('a.id', $ids);
 
     return $q;
   }
+
 }

@@ -1,7 +1,8 @@
 zsBlogArticle:
   actAs:
     Timestampable:  ~
-    Sluggable:      { fields: [title] }
+    zsUserTraceable: ~
+    Sluggable:      { fields: [title], builder: [zsTools, urlizeLowercase] }
   columns:
     title:          { type: string(255), notnull: true }
     category_id:    { type: integer, notnull: true }
@@ -27,6 +28,8 @@ zsBlogCategory:
     name:           { type: string(255), notnull: true, unique: true }
 
 zsBlogTag:
+  actAs:
+    Sluggable:      { fields: [name], builder: [zsTools, urlizeLowercase] }
   columns:
     name:           { type: string(255), notnull: true, unique: true }
 
@@ -39,3 +42,20 @@ zsBlogArticleTag:
   relations:
     zsBlogArticle:  { onDelete: CASCADE, local: article_id, foreign: id }
     zsBlogTag:      { onDelete: CASCADE, local: tag_id, foreign: id }
+
+zsBlogComment:
+  actAs:
+    Timestampable:  ~
+  columns:
+    article_id:     { type: integer, notnull: true }
+    name:           { type: string(255), notnull: true }
+    email:          { type: string(255), notnull: true }
+    website:        { type: string(255) }
+    message:        { type: clob, notnull: true }
+  relations:
+    Article:
+      class:        zsBlogArticle
+      local:        article_id
+      foreign:      id
+      foreignAlias: Comments
+      onDelete:     CASCADE

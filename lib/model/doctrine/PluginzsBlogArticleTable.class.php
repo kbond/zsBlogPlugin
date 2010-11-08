@@ -17,57 +17,39 @@ class PluginzsBlogArticleTable extends Doctrine_Table
     return Doctrine_Core::getTable('PluginzsBlogArticle');
   }
 
-  public function retrieveArticlesByIds($ids)
+  public function addJoinQuery(Doctrine_Query $q)
   {
-    $q = Doctrine_Query::create()
-            ->from('zsBlogArticle a')
-            ->whereIn('a.id', $ids);
-
-    return $q->execute();
-  }
-
-  public function retrievePublishedArticlesQuery($category = null, $tag = null)
-  {
-    $q = Doctrine::getTable('zsBlogArticle')->createQuery('a');
-    $q->where('a.published_at IS NOT ?', null)
-            ->orderBy('a.published_at DESC');
-
-    $q = $this->addJoinQuery($q);
-
-    if ($category)
-      $q->addWhere('a.category_id = ?', $category->getId());
-
-    if ($tag)
-      $q->addWhere('t.id = ?', $tag->getId());
-
-    return $q;
-  }
-
-  public function retrievePublishedArticles($category = null, $tag = null)
-  {
-    return $this->retrievePublishedArticlesQuery($category, $tag)->execute();
-  }
-
-  /**
-   * @param Doctrine_Query $q
-   * @return Doctrine_Query
-   */
-  public function addJoinQuery(Doctrine_Query $q = null)
-  {
-    if (!$q)
-      $q = Doctrine::getTable('zsBlogArticle')->createQuery('a');
-
     $rootAlias = $q->getRootAlias();
 
     $q->leftJoin($rootAlias . '.Category c')
-            ->leftJoin($rootAlias . '.Tags t');
+            ->leftJoin($rootAlias . '.Tags t')
+            ->leftJoin($rootAlias . '.CreatedBy u');
+            //->leftJoin($rootAlias . '.Comments m');
+
+    $q->addSelect($rootAlias.'.*, c.*, t.*, u.*');
+    $q->addSelect('(SELECT COUNT(*) FROM zsBlogComment m WHERE m.article_id = '.$rootAlias.'.id) as num_comments');
+    //$q->addSelect('COUNT(m.id) num_comments');
+    //$q->groupBy($rootAlias.'.id');
+            
 
     return $q;
   }
 
-  public function getLatestArticle($category = null, $tag = null)
+  public function getListQuery()
   {
-    $q = $this->retrievePublishedArticlesQuery($category = null, $tag = null);
+    $q = $this->createQuery('a');
+
+    $q = $this->addJoinQuery($q);
+
+    $q->addWhere('a.published_at IS NOT ?', null)
+            ->orderBy('a.published_at DESC');
+
+    return $q;
+  }
+
+  public function retrieveForRoute(Doctrine_Query $q)
+  {
+    $q = $this->addJoinQuery($q);
 
     return $q->fetchOne();
   }

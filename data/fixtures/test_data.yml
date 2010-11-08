@@ -1,3 +1,11 @@
+sfGuardUser:
+  kevin:
+    username: kbond
+    password: 1234
+    email_address: kevinbond@gmail.com
+    first_name: Kevin
+    last_name: Bond
+
 zsBlogCategory:
   up:
     name: Product Update
@@ -30,49 +38,59 @@ zsBlogArticle:
     
     published_at: '2010-07-01'
     Tags: [mount, rack, bracket]
+    CreatedBy: kevin
+    UpdatedBy: kevin
   a2:
     title:  New Economy Fixed Wall Bracket (FWB Series)
     Category: up
     content: |
       <p>Praesent vel cursus diam. Nullam urna dui, rutrum ut aliquam vel, lacinia eget nibh. In sed ante id mauris bibendum suscipit ut sit amet turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pharetra pretium nisl eget viverra.</p>
+      <p><!-- pagebreak --></p>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum ante quis ante pretium vel gravida lectus ornare. Aenean ut arcu nisl. Duis sed neque dui, sed imperdiet metus. Fusce dui elit, eleifend ullamcorper faucibus a, porta quis ante. Morbi pellentesque est a ante mollis interdum. Vestibulum iaculis fermentum enim, sed congue ipsum laoreet et. Integer sagittis viverra risus, vel cursus metus consectetur nec. Curabitur facilisis felis sed nunc commodo accumsan.</p>
       <p>Praesent vel cursus diam. Nullam urna dui, rutrum ut aliquam vel, lacinia eget nibh. In sed ante id mauris bibendum suscipit ut sit amet turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pharetra pretium nisl eget viverra. Sed velit est, sollicitudin vitae sodales et, lobortis at sapien. Fusce adipiscing dolor nec nulla ultricies quis placerat nisl blandit. Fusce vitae arcu mauris, sed tempus libero.</p>
     
-    published_at: '2010-06-01'
+    published_at: '2010-08-26'
     Tags: [bracket, economy]
+    CreatedBy: kevin
+    UpdatedBy: kevin
   a3:
     title:  Updated Door for RCSC Series
     Category: up
     content: |
       <p>Praesent vel cursus diam. Nullam urna dui, rutrum ut aliquam vel, lacinia eget nibh. In sed ante id mauris bibendum suscipit ut sit amet turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pharetra pretium nisl eget viverra. Sed velit est, sollicitudin vitae sodales et, lobortis at sapien. Fusce adipiscing dolor nec nulla ultricies quis placerat nisl blandit. Fusce vitae arcu mauris, sed tempus libero.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum ante quis ante pretium vel gravida lectus ornare. Aenean ut arcu nisl. Duis sed neque dui, sed imperdiet metus. Fusce dui elit, eleifend ullamcorper faucibus a, porta quis ante. Morbi pellentesque est a ante mollis interdum. Vestibulum iaculis fermentum enim, sed congue ipsum laoreet et. Integer sagittis viverra risus, vel cursus metus consectetur nec. Curabitur facilisis felis sed nunc commodo accumsan.</p>
+      <p><!-- pagebreak -->Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum ante quis ante pretium vel gravida lectus ornare. Aenean ut arcu nisl. Duis sed neque dui, sed imperdiet metus. Fusce dui elit, eleifend ullamcorper faucibus a, porta quis ante. Morbi pellentesque est a ante mollis interdum. Vestibulum iaculis fermentum enim, sed congue ipsum laoreet et. Integer sagittis viverra risus, vel cursus metus consectetur nec. Curabitur facilisis felis sed nunc commodo accumsan.</p>
       <p>Praesent vel cursus diam. Nullam urna dui, rutrum ut aliquam vel, lacinia eget nibh. In sed ante id mauris bibendum suscipit ut sit amet turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pharetra pretium nisl eget viverra.</p>
     
-    published_at: '2010-05-01'
+    published_at: '2010-05-27'
+    CreatedBy: kevin
+    UpdatedBy: kevin
   a4:
-    title:  New Rail Mount Cover
+    title:  New Rail Mount Cover - not published
     Category: up
     content: |
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum ante quis ante pretium vel gravida lectus ornare. Aenean ut arcu nisl. Duis sed neque dui, sed imperdiet metus. Fusce dui elit, eleifend ullamcorper faucibus a, porta quis ante. Morbi pellentesque est a ante mollis interdum. Vestibulum iaculis fermentum enim, sed congue ipsum laoreet et. Integer sagittis viverra risus, vel cursus metus consectetur nec. Curabitur facilisis felis sed nunc commodo accumsan.</p>
-      <p>Praesent vel cursus diam. Nullam urna dui, rutrum ut aliquam vel, lacinia eget nibh. In sed ante id mauris bibendum suscipit ut sit amet turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pharetra pretium nisl eget viverra.</p>
+      <p>Praesent vel cursus diam. Nullam urna dui, rutrum ut aliquam vel, lacinia eget nibh. In sed ante id mauris bibendum suscipit ut sit amet turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pharetra pretium nisl eget viverra.</p>    
     
-    published_at: '2010-04-01'
   a5:
     title:  Modified Stainless Steel Enclosure with rail mounting
     Category: mod
     content: |
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum ante quis ante pretium vel gravida lectus ornare. Aenean ut arcu nisl. Duis sed neque dui, sed imperdiet metus. Fusce dui elit, eleifend ullamcorper faucibus a, porta quis ante. Morbi pellentesque est a ante mollis interdum. Vestibulum iaculis fermentum enim, sed congue ipsum laoreet et. Integer sagittis viverra risus, vel cursus metus consectetur nec. Curabitur facilisis felis sed nunc commodo accumsan.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum ante quis ante pretium vel gravida lectus ornare. Aenean ut arcu nisl. Duis sed neque dui, sed imperdiet metus. Fusce dui elit, eleifend ullamcorper faucibus a, porta quis ante. Morbi pellentesque est a ante mollis interdum. Vestibulum iaculis fermentum enim, sed congue ipsum laoreet et. Integer sagittis viverra risus, vel cursus metus consectetur nec. Curabitur facilisis felis sed nunc commodo accumsan.<!-- pagebreak --></p>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum ante quis ante pretium vel gravida lectus ornare. Aenean ut arcu nisl. Duis sed neque dui, sed imperdiet metus. Fusce dui elit, eleifend ullamcorper faucibus a, porta quis ante. Morbi pellentesque est a ante mollis interdum. Vestibulum iaculis fermentum enim, sed congue ipsum laoreet et. Integer sagittis viverra risus, vel cursus metus consectetur nec. Curabitur facilisis felis sed nunc commodo accumsan.</p>
       <p>Praesent vel cursus diam. Nullam urna dui, rutrum ut aliquam vel, lacinia eget nibh. In sed ante id mauris bibendum suscipit ut sit amet turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pharetra pretium nisl eget viverra.</p>
     
-    published_at: '2010-07-01'
+    published_at: '2010-07-17'
+    CreatedBy: kevin
+    UpdatedBy: kevin
   a6:
     title:  Modified Broadcast Cabinet
     Category: mod
     content: |
       <p>Praesent vel cursus diam. Nullam urna dui, rutrum ut aliquam vel, lacinia eget nibh. In sed ante id mauris bibendum suscipit ut sit amet turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pharetra pretium nisl eget viverra.</p>
     
-    published_at: '2010-06-01'
+    published_at: '2010-06-15'
+    CreatedBy: kevin
+    UpdatedBy: kevin
   a7:
     title:  Modified Data Centre Cabinet
     Category: mod
@@ -80,7 +98,9 @@ zsBlogArticle:
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum ante quis ante pretium vel gravida lectus ornare. Aenean ut arcu nisl. Duis sed neque dui, sed imperdiet metus. Fusce dui elit, eleifend ullamcorper faucibus a, porta quis ante. Morbi pellentesque est a ante mollis interdum. Vestibulum iaculis fermentum enim, sed congue ipsum laoreet et. Integer sagittis viverra risus, vel cursus metus consectetur nec. Curabitur facilisis felis sed nunc commodo accumsan.</p>
       <p>Praesent vel cursus diam. Nullam urna dui, rutrum ut aliquam vel, lacinia eget nibh. In sed ante id mauris bibendum suscipit ut sit amet turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pharetra pretium nisl eget viverra.</p>
     
-    published_at: '2010-05-01'
+    published_at: '2010-05-02'
+    CreatedBy: kevin
+    UpdatedBy: kevin
   a8:
     title:  Custom Shelf
     Category: mod
@@ -90,17 +110,21 @@ zsBlogArticle:
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum ante quis ante pretium vel gravida lectus ornare. Aenean ut arcu nisl. Duis sed neque dui, sed imperdiet metus. Fusce dui elit, eleifend ullamcorper faucibus a, porta quis ante. Morbi pellentesque est a ante mollis interdum. Vestibulum iaculis fermentum enim, sed congue ipsum laoreet et. Integer sagittis viverra risus, vel cursus metus consectetur nec. Curabitur facilisis felis sed nunc commodo accumsan.</p>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum ante quis ante pretium vel gravida lectus ornare. Aenean ut arcu nisl. Duis sed neque dui, sed imperdiet metus. Fusce dui elit, eleifend ullamcorper faucibus a, porta quis ante. Morbi pellentesque est a ante mollis interdum. Vestibulum iaculis fermentum enim, sed congue ipsum laoreet et. Integer sagittis viverra risus, vel cursus metus consectetur nec. Curabitur facilisis felis sed nunc commodo accumsan.</p>
     
-    published_at: '2010-04-01'
+    published_at: '2010-04-22'
+    CreatedBy: kevin
+    UpdatedBy: kevin
   a9:
     title:  Engineered Weightload Tests
     Category: con
     content: |
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum ante quis ante pretium vel gravida lectus ornare. Aenean ut arcu nisl. Duis sed neque dui, sed imperdiet metus. Fusce dui elit, eleifend ullamcorper faucibus a, porta quis ante. Morbi pellentesque est a ante mollis interdum. Vestibulum iaculis fermentum enim, sed congue ipsum laoreet et. Integer sagittis viverra risus, vel cursus metus consectetur nec. Curabitur facilisis felis sed nunc commodo accumsan.</p>
-      <p>Praesent vel cursus diam. Nullam urna dui, rutrum ut aliquam vel, lacinia eget nibh. In sed ante id mauris bibendum suscipit ut sit amet turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pharetra pretium nisl eget viverra.</p>
+      <p><!-- pagebreak -->Praesent vel cursus diam. Nullam urna dui, rutrum ut aliquam vel, lacinia eget nibh. In sed ante id mauris bibendum suscipit ut sit amet turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pharetra pretium nisl eget viverra.</p>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum ante quis ante pretium vel gravida lectus ornare. Aenean ut arcu nisl. Duis sed neque dui, sed imperdiet metus. Fusce dui elit, eleifend ullamcorper faucibus a, porta quis ante. Morbi pellentesque est a ante mollis interdum. Vestibulum iaculis fermentum enim, sed congue ipsum laoreet et. Integer sagittis viverra risus, vel cursus metus consectetur nec. Curabitur facilisis felis sed nunc commodo accumsan.</p>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum ante quis ante pretium vel gravida lectus ornare. Aenean ut arcu nisl. Duis sed neque dui, sed imperdiet metus. Fusce dui elit, eleifend ullamcorper faucibus a, porta quis ante. Morbi pellentesque est a ante mollis interdum. Vestibulum iaculis fermentum enim, sed congue ipsum laoreet et. Integer sagittis viverra risus, vel cursus metus consectetur nec. Curabitur facilisis felis sed nunc commodo accumsan.</p>
     
-    published_at: '2010-07-01'
+    published_at: '2010-07-30'
+    CreatedBy: kevin
+    UpdatedBy: kevin
   a10:
     title:  Enclosure Testing Upgrades
     Category: con
@@ -109,7 +133,9 @@ zsBlogArticle:
       <p>Praesent vel cursus diam. Nullam urna dui, rutrum ut aliquam vel, lacinia eget nibh. In sed ante id mauris bibendum suscipit ut sit amet turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pharetra pretium nisl eget viverra.</p>      
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum ante quis ante pretium vel gravida lectus ornare. Aenean ut arcu nisl. Duis sed neque dui, sed imperdiet metus. Fusce dui elit, eleifend ullamcorper faucibus a, porta quis ante. Morbi pellentesque est a ante mollis interdum. Vestibulum iaculis fermentum enim, sed congue ipsum laoreet et. Integer sagittis viverra risus, vel cursus metus consectetur nec. Curabitur facilisis felis sed nunc commodo accumsan.</p>
     
-    published_at: '2010-06-01'
+    published_at: '2010-06-13'
+    CreatedBy: kevin
+    UpdatedBy: kevin
   a11:
     title:  Paint Improvements
     Category: con
@@ -118,7 +144,9 @@ zsBlogArticle:
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum ante quis ante pretium vel gravida lectus ornare. Aenean ut arcu nisl. Duis sed neque dui, sed imperdiet metus. Fusce dui elit, eleifend ullamcorper faucibus a, porta quis ante. Morbi pellentesque est a ante mollis interdum. Vestibulum iaculis fermentum enim, sed congue ipsum laoreet et. Integer sagittis viverra risus, vel cursus metus consectetur nec. Curabitur facilisis felis sed nunc commodo accumsan.</p>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum ante quis ante pretium vel gravida lectus ornare. Aenean ut arcu nisl. Duis sed neque dui, sed imperdiet metus. Fusce dui elit, eleifend ullamcorper faucibus a, porta quis ante. Morbi pellentesque est a ante mollis interdum. Vestibulum iaculis fermentum enim, sed congue ipsum laoreet et. Integer sagittis viverra risus, vel cursus metus consectetur nec. Curabitur facilisis felis sed nunc commodo accumsan.</p>
     
-    published_at: '2010-05-01'
+    published_at: '2010-05-05'
+    CreatedBy: kevin
+    UpdatedBy: kevin
   a12:
     title:  Modified vs Custom
     Category: con
@@ -126,7 +154,9 @@ zsBlogArticle:
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum ante quis ante pretium vel gravida lectus ornare. Aenean ut arcu nisl. Duis sed neque dui, sed imperdiet metus. Fusce dui elit, eleifend ullamcorper faucibus a, porta quis ante. Morbi pellentesque est a ante mollis interdum. Vestibulum iaculis fermentum enim, sed congue ipsum laoreet et. Integer sagittis viverra risus, vel cursus metus consectetur nec. Curabitur facilisis felis sed nunc commodo accumsan.</p>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum ante quis ante pretium vel gravida lectus ornare. Aenean ut arcu nisl. Duis sed neque dui, sed imperdiet metus. Fusce dui elit, eleifend ullamcorper faucibus a, porta quis ante. Morbi pellentesque est a ante mollis interdum. Vestibulum iaculis fermentum enim, sed congue ipsum laoreet et. Integer sagittis viverra risus, vel cursus metus consectetur nec. Curabitur facilisis felis sed nunc commodo accumsan.</p>
     
-    published_at: '2010-04-01'
+    published_at: '2010-04-09'
+    CreatedBy: kevin
+    UpdatedBy: kevin
   a13:
     title:  Top Sellers
     Category: top
@@ -139,7 +169,9 @@ zsBlogArticle:
         <li>PCMDD19003BK1</li>
       </ol>
     
-    published_at: '2010-07-01'
+    published_at: '2010-07-30'
+    CreatedBy: kevin
+    UpdatedBy: kevin
   a14:
     title:  Top Sellers
     Category: top
@@ -152,7 +184,9 @@ zsBlogArticle:
         <li>PCMDD19003BK1</li>
       </ol>
     
-    published_at: '2010-06-01'
+    published_at: '2010-06-17'
+    CreatedBy: kevin
+    UpdatedBy: kevin
   a15:
     title:  Top Sellers
     Category: top
@@ -165,7 +199,9 @@ zsBlogArticle:
         <li>PCMDD19003BK1</li>
       </ol>
     
-    published_at: '2010-05-01'
+    published_at: '2010-05-11'
+    CreatedBy: kevin
+    UpdatedBy: kevin
   a16:
     title:  Top Sellers
     Category: top
@@ -178,6 +214,35 @@ zsBlogArticle:
         <li>PCMDD19003BK1</li>
       </ol>
     
-    published_at: '2010-04-01'
+    published_at: '2010-04-20'
+    CreatedBy: kevin
+    UpdatedBy: kevin
 
 
+zsBlogComment:
+  c1:
+    Article: a2
+    created_at: '2010-08-30'
+    name: James
+    email: james@gmail.com
+    website: http://www.james.com
+    message: |
+      @kevin no problem
+
+  c2:
+    Article: a2
+    created_at: '2010-08-28'
+    name: James
+    email: james@gmail.com
+    website: http://www.james.com
+    message: |
+      cool post
+  c3:
+    Article: a2
+    created_at: '2010-08-29'
+    name: Kevin
+    email: kevin@gmail.com
+    message: |
+      @james thanks!
+
+  
